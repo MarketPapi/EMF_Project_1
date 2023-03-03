@@ -6,7 +6,8 @@ import scipy
 import statsmodels.api as sm
 
 
-print('Hello Anis')
+
+print('testing merge')
 
 def stats(dframe):
     """Returns statistics of a dataframe."""
