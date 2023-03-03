@@ -6,6 +6,8 @@ import scipy
 import statsmodels.api as sm
 
 
+print('Hello Anis')
+
 def stats(dframe):
     """Returns statistics of a dataframe."""
     return dframe.agg(['mean', 'var', 'skew', 'kurt', 'min', 'max'])
